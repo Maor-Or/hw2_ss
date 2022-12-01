@@ -23,7 +23,8 @@ int main()
                 break;    
             case 'C':
                 scanf("%d %d",&i,&j);
-                printf("%d \n",fun_C(i,j,Mat));
+                fun_C(i,j,Mat);
+                //printf("%d \n",fun_C(i,j,Mat));
                 break;
             case 'D':
                 flag = 0;
@@ -32,5 +33,7 @@ int main()
                 break;
         }
     }
+
+    return 0;
 
 }

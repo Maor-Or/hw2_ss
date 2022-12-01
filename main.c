@@ -19,10 +19,7 @@ int main()
                 break; 
             case 'B':
                 scanf("%d %d",&i,&j);
-                if(fun_B(i,j,Mat))
-                    printf("True \n");
-                 else
-                    printf("False \n");  
+                fun_B(i,j,Mat); 
                 break;    
             case 'C':
                 scanf("%d %d",&i,&j);

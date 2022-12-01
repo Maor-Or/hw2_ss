@@ -1,6 +1,5 @@
 #include "my_mat.h"
 #include <stdio.h>
-#include <math.h>
 #define SIZE 10
 
 

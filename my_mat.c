@@ -73,9 +73,9 @@ void fun_B(int i ,int j,int Mat[SIZE][SIZE])
     Floyd_Warshall_algorithm(Path_Mat);
    
     if(Path_Mat[i][j] == 0)
-        printf("False \n");
+        printf("False\n");
     else
-        printf("True \n");   
+        printf("True\n");   
 
   
 }
@@ -94,8 +94,8 @@ void fun_C(int i ,int j,int Mat[SIZE][SIZE])
     Floyd_Warshall_algorithm(Path_Mat);
    
     if(Path_Mat[i][j] == 0)
-        printf("-1 \n");
+        printf("-1\n");
     else
-        printf("%d \n",Path_Mat[i][j]);  
+        printf("%d\n",Path_Mat[i][j]);  
 
 }

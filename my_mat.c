@@ -50,16 +50,16 @@ void fun_B(int i ,int j,int Mat[SIZE][SIZE])
     int Path_Mat[SIZE][SIZE];
 
      for(int i=0;i<SIZE;i++)
-    {
+    {//copying input mat
         for(int j=0;j<SIZE;j++)
         {
            Path_Mat[i][j]=Mat[i][j];
         }
     }
-    Floyd_Warshall_algorithm(Path_Mat);
+    Floyd_Warshall_algorithm(Path_Mat); // applying the algorithm
    
     if(Path_Mat[i][j] == 0)
-        printf("False\n");
+        printf("False\n"); //checking if there is a path between the nodes
     else
         printf("True\n");   
 
@@ -71,17 +71,17 @@ void fun_C(int i ,int j,int Mat[SIZE][SIZE])
   int Path_Mat[SIZE][SIZE];
 
      for(int i=0;i<SIZE;i++)
-    {
+    {//copying input mat
         for(int j=0;j<SIZE;j++)
         {
            Path_Mat[i][j]=Mat[i][j];
         }
     }
-    Floyd_Warshall_algorithm(Path_Mat);
+    Floyd_Warshall_algorithm(Path_Mat);// applying the algorithm
    
     if(Path_Mat[i][j] == 0)
-        printf("-1\n");
+        printf("-1\n");//checking if there is a path between the nodes
     else
-        printf("%d\n",Path_Mat[i][j]);  
+        printf("%d\n",Path_Mat[i][j]);//if there is a path, prints the lightest path
 
 }

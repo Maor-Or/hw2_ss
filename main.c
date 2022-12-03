@@ -6,7 +6,7 @@ int main()
 {
     char menu ='F';
     int flag =1; //for controlling the menu
-    int Mat[SIZE][SIZE];
+    int Mat[SIZE][SIZE];//initializes the matrix
     int i,j;
     while(flag)
     {

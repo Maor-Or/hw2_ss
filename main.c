@@ -5,7 +5,7 @@
 int main()
 {
     char menu ='F';
-    int flag =1;
+    int flag =1; //for controlling the menu
     int Mat[SIZE][SIZE];
     int i,j;
     while(flag)
@@ -15,7 +15,6 @@ int main()
         {
             case 'A': 
                 fun_A(Mat);
-                //Mat_Printer(Mat);
                 break; 
             case 'B':
                 scanf("%d %d",&i,&j);
@@ -24,7 +23,6 @@ int main()
             case 'C':
                 scanf("%d %d",&i,&j);
                 fun_C(i,j,Mat);
-                //printf("%d \n",fun_C(i,j,Mat));
                 break;
             case 'D':
                 flag = 0;

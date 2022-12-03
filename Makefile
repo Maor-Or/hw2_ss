@@ -4,7 +4,6 @@ all:connections
 
 connections: main.o libmy_mat.so
 	$(CC) $(FLAGS) -o connections main.o ./my_mat.so
-#creating dynamic lib.a for recursion functions
 libmy_mat.so: my_mat.o
 	$(CC) -shared -o my_mat.so my_mat.o
 
